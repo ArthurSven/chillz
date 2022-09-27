@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color:  #505962;
+}
+
+.offset:before {
+  height: 3.8rem;
+  margin-top: -3.8rem;
+  content: "";
+  display: block;
+}
+
+/*-- **** Navbar **** --*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  text-shadow: 5px;
+  letter-spacing: 4px;
+  background-color: rgb(255, 255, 255) !important;
+}
+.navbar-nav li{
+  padding-right: 40px;
+}
+.navbar-dark .navbar-nav .navbar-link {
+  color: white;
+}
+.navbar-dark .navbar-nav .navbar-link.active,
+.navbar-dark .navbar-nav .navbar-link:hover {
+  color: black;
+}
